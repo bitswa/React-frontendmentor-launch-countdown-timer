@@ -33,6 +33,11 @@ export function App() {
     <div className="font-redHat h-[100vh] flex flex-col items-center justify-around bg-darkBlue bg-stars bg-cover">
       <Main days={days} hours={hours} min={min} sec={sec} />
       <Footer />
+      <img
+        className="absolute w-full bottom-0"
+        src="./images/pattern-hills.svg"
+        alt=""
+      />
     </div>
   );
 }

@@ -1,15 +1,13 @@
 export function Card({ timer, label }) {
   return (
     <div className="flex flex-col gap-4 w-full text-center">
-      <div className="flex flex-col relative">
-        <span className="p-4 rounded-md  bg-mostlyBlack"></span>
-        <span className="absolute top-0 left-0 translate-x-[50%] translate-y-[50%] text-2xl text-white">
-          {timer < 10 && 0}
-          {timer}
-        </span>
-        <span className="p-4 rounded-md bg-saturatedBlue"></span>
-      </div>
-      <h2 className="text-[8px] uppercase text-white tracking-[0.4em]">{label}</h2>
+      <span className="text-2xl py-4 rounded-md bg-saturatedBlue text-softRed shadow-xl">
+        {timer < 10 && 0}
+        {timer}
+      </span>
+      <h2 className="text-[8px] uppercase text-grayishBlue tracking-[0.4em]">
+        {label}
+      </h2>
     </div>
   );
 }
