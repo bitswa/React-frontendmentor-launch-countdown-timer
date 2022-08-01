@@ -1,6 +1,6 @@
 export function Footer() {
   return (
-    <footer className="flex gap-4">
+    <footer className="flex gap-6 justify-center">
       <a href="">
         <img src="./images/icon-facebook.svg" alt="facebook" />
       </a>

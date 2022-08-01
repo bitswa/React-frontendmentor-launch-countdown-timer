@@ -30,7 +30,7 @@ export function App() {
   }, [sec, min, hours]);
 
   return (
-    <div className="font-redHat h-[100vh] ">
+    <div className="font-redHat h-[100vh] flex flex-col items-center justify-around bg-darkBlue bg-stars bg-cover">
       <Main days={days} hours={hours} min={min} sec={sec} />
       <Footer />
     </div>
