@@ -9,7 +9,7 @@ export function Card({ timer, label }) {
         </span>
         <span className="p-4 rounded-md bg-saturatedBlue"></span>
       </div>
-      <h2 className="text-[8px] uppercase text-white">{label}</h2>
+      <h2 className="text-[8px] uppercase text-white tracking-[0.4em]">{label}</h2>
     </div>
   );
 }
